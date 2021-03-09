@@ -8,11 +8,8 @@ var sockets = []
 console.log('Server started')
 io.on('connection', function(socket) {
 
-    console.log('Connection Made!')
-
     var player = new Player()
     var thisPlayerID = player.id
-    //console.log('id:' + thisPlayerID)
     players[thisPlayerID] = player
     sockets[thisPlayerID] = socket
 
