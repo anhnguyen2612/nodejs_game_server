@@ -1,0 +1,19 @@
+{
+  "name": "gameserver",
+  "version": "1.0.0",
+  "description": "legitserver",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "anhnguyen",
+  "license": "ISC",
+  "dependencies": {
+    "got": "^9.6.0",
+    "shortid": "^2.2.16",
+    "socket.io": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
